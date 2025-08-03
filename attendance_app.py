@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # Read the student-club data
-df = pd.read_csv(r'C:\Users\HP\Desktop\Student_club_data.csv')
+df = pd.read_csv(r'Student_club_data.csv')
 
 # Extracting unique clubs
 all_clubs = set()
