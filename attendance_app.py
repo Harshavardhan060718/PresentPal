@@ -1,6 +1,14 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+
+# Google Sheets setup
+scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+creds = ServiceAccountCredentials.from_json_keyfile_name('attendanceppal-1681b9b1fe82.json', scope)
+client = gspread.authorize(creds)
+sheet = client.open("ppal_attendance").worksheet("Attendance")
 
 # Read the student-club data
 df = pd.read_csv(r'Student_club_data.csv')
@@ -26,26 +34,9 @@ for idx, row in filtered_students.iterrows():
 
 # Save attendance on button click
 if st.button("Submit Attendance"):
-    attendance_data = []
     today = datetime.today().strftime('%Y-%m-%d')
     
     for name, present in attendance.items():
-        attendance_data.append({
-            'Date': today,
-            'Club': selected_club,
-            'Student Name': name,
-            'Present': 'Yes' if present else 'No'
-        })
+        sheet.append_row([today, selected_club, name, "Yes" if present else "No"])
     
-    attendance_df = pd.DataFrame(attendance_data)
-
-    # Save to CSV
-    attendance_file = r'C:\Users\HP\Desktop\attendance_records.csv'
-    try:
-        existing_df = pd.read_csv(attendance_file)
-        updated_df = pd.concat([existing_df, attendance_df], ignore_index=True)
-        updated_df.to_csv(attendance_file, index=False)
-    except FileNotFoundError:
-        attendance_df.to_csv(attendance_file, index=False)
-
-    st.success("✅ Attendance recorded successfully!")
+    st.success("✅ Attendance recorded successfully in Google Sheets!")
