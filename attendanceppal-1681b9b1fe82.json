@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "attendanceppal",
+  "private_key_id": "1681b9b1fe82be838e59cbba09c280b9e9989cef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCSs6eQKKvfVkTR\nLseoDFAZvmDKSi+pxiBL/9rvmqgWWt+Obs+qdmRxqIjipxfbLt8CYKDfqZzZyEdJ\nqha+lYWHfUS2MdSc2XFHLkzOS0tMEzD8rOs5QpgUpP/jz9ol77Ao4CetmVLsrWv4\nLHxT9gfDkygDL1cjmNgAiCnHJDfQj2T5xKqPDgeVYzzfZVAuy38qnVea5dcGaseE\nvzFN9v+PHaO9hZ5w0fPkUkx8/UVVXJ5sK4CwPFM6rr61yefZxTI3O3ZTo0o2rgyG\n+ZNPc2olqg0Eo6Ls2He//jSljbtKWkEFzfCDkC/n8fOdUg18j4r6gqZPRmJ3suqz\n9+4LARPbAgMBAAECggEARv4f0biM7CiQZvaPcjh7LuodZuedxzf0+zJW3erm+uKB\nGylu35wpoYMgsyaPeedlzn26fGJVYGL2dKSWGya6lsW9UbotnLXxhrPWQWLYjnkf\nFLgNoQkkFaF/n9w/QmqKwk0vhmgTZCvMey30AKGoQjHdhCUNs1FM/nzmUtOpGwj9\n9uB/9T6RJJuKT4Z40M/UYGaTTJvRxlfnUPcwpW/GO+MKoJov+PQYqND2FVdIvN8W\nbl4etkz5Qia2VAdiSy/5M+SGzgs40V6J+YwWEK7cLpkIVLuaIiL3gIGVl/hFOwuE\nlBv1WvqiVR9cBmEZeMDN+qPanyCBDIZXS9AY0Yp7wQKBgQDIRW7Uke1pz2EqK/PF\nie6/hFFASBTes6nQg0cJl2wahuUOhOeSc5lAUXseuIhreSarDL6X3H9Pa2mcBFeK\nsg7Ia+vrLuWapvUESGRMp+ccMlzjCi5VWGhwvcBOPKmvYrvQHV41Tyeam2tRW1mC\nOpCSsv/Axizjf5yA5MPTMbeNIQKBgQC7hiLY2zqzlyMeuj/4Jy2BoaPgFgi0DMXo\nWSZ0X/O197hIvBwmOs84m2yMx3jtO0I3rnX/bt3QhRTgvWU8hA+WnlQIsGieBDSR\n2GR5+jiRWuTyyN+FqlobZxEsQme2q87oX/whRjcXiGO4wZQQ+Ef/lsEg+BIoPpWU\nToCMdJqlewKBgBXGpvRqIZx9thz1xn3WL6WXZ5ZLwCku8+n+PD0ov9JqlIFtphhg\nhWte8Lo4amz1MWUr75VnnlguX79dIX+tOLpGMdLSuJiGSuH6VR2YrCJ+v2bYdo1F\nHaYUm9Jl+jVd0PoiF1pIjw/akmK4QhVM9OdemzyEz+C0wXmqZjiSkVjBAoGBAJKJ\nvn9xyYx/pZ0kdEqp6uCq/JFnBoQUmy73Q5qbRKpFG0gTX3fsavRUWF4mnnPb4+H5\nPhJOg52n8Wmx9wN0O2466XYkzIv2w1HZJKNBCqVjvxeOK0WbmnBheUT522wfFD/4\nieFCqliEZ1EATIF6U2ECYIcv85hpV6AePEwF7rczAoGAG70LDZvDeu8nPpQ8WI6u\nTiQymvJ4sv2E4BC1hkLVJ3oQiIOUeT7xuSjNas152LL/d5huGD1UDDZ1tbku1nsh\n4ssqzUoJmjcAfyjexsw1IuD9jsabC8n+PCdS7M90s4HEvtJ6p6bgl+ay6azhogEI\nOW+kNL+i6HNhIKItK043kgM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "attendance-bot@attendanceppal.iam.gserviceaccount.com",
+  "client_id": "108064880575218956023",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/attendance-bot%40attendanceppal.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
