@@ -1,3 +1,6 @@
-gspread
 streamlit
+gspread
+oauth2client
 pandas
+numpy
+# add any other libraries you use here
